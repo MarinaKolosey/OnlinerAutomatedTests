@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Onliner Test Plan" verbose="1">
+	
+	<test name="Onliner Tests" preserve-order="true">
+		<parameter name="searchItem" value="bentley"/>
+		<parameter name="login" value="marik.vladi@gmail.com"/>
+		<parameter name="password" value="123456"/>
+		<parameter name="password_facebook" value="afonja1985"/>
+		<parameter name="username" value="1810472"/>
+        <parameter name="username_email" value="marik_vladi"/>
+		<parameter name="city" value="Minsk"/>
+		<parameter name="menuLink" value="Мобильные телефоны"/>
+		<parameter name="manufacturerLink" value="Apple"/>
+		<parameter name="yearLink" value="2015"/>
+        <parameter name="subject" value="TEST!"/>
+        <parameter name="message" value="HELLO!!!"/>
+        <parameter name="descriptionText" value="Реквизиты и юридический адрес"/>
+        <parameter name="yearCopyright" value="2015"/>
+		<classes>
+            <class name="tests.QuickSearchTest" />
+           <class name="tests.LoginSuccessTest" />
+           <class name="tests.EditProfileTest" />
+           <class name="tests.AddFavoritesTest" />
+            <class name="tests.ComparisonTest" />
+              <class name="tests.MessagesTest" />
+            <class name="tests.FooterTest" />
+        </classes>
+	</test>
+</suite>
